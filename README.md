@@ -1,4 +1,4 @@
-# wan-ip-checker
+# WAN-IP-Checker-Docker
 
 A lightweight Docker container that monitors your public WAN IP address and exposes it as a Prometheus metric via node_exporter's textfile collector.
 
