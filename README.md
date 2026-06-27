@@ -2,6 +2,8 @@
 
 A lightweight Docker container that monitors your public WAN IP address and exposes it as a Prometheus metric via node_exporter's textfile collector.
 
+Disclaimer: About 50% of this code and readme was created with assistance using AI! 
+
 ## How It Works
 
 1. The container runs a Python script on a configurable interval
