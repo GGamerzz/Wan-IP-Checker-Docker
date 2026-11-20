@@ -15,7 +15,7 @@ Disclaimer: About 50% of this code and readme was created with assistance using 
 ## Metric
 
 ```
-wan_ip_change{ip="x.x.x.x"} 0   # 0 = no change, 1 = changed
+wan_ip_change{current_ip="x.x.x.2", previous_ip="x.x.x.1"}	# 0 = no change, 1 = changed
 ```
 
 ## Usage
