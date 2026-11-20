@@ -1,4 +1,5 @@
 FROM python:alpine
+RUN pip uninstall -y pip
 COPY update_wan_ip.py /wan_ip_checker/update_wan_ip.py
 WORKDIR /wan_ip_checker
 RUN mkdir -p /wan_ip_checker/textfiles
